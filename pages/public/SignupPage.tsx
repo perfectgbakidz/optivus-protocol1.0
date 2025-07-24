@@ -1,6 +1,7 @@
 
 
 
+
 import React, { useState, useEffect, useRef } from 'react';
 import { useAuth } from '../../hooks/useAuth';
 import { Button } from '../../components/ui/Button';
@@ -356,11 +357,11 @@ export const SignupPage: React.FC = () => {
                         <div className="text-center pt-2">
                             <h3 className="text-xl font-bold">Secure Checkout</h3>
                             <div className="flex justify-center flex-wrap items-center gap-x-5 gap-y-3 mt-4 opacity-90">
-                                <img src="pages/public/assets/images/visa.png" alt="Visa" className="h-4" />
-                                <img src="pages/public/assets/images/mastercard.png" alt="Mastercard" className="h-6 rounded-sm" />
-                                <img src="pages/public/assets/images/amex.jpeg" alt="American Express" className="h-6" />
-                                <img src="pages/public/assets/images/discover.jpeg" alt="Discover" className="h-4 rounded-sm" />
-                                <img src="pages/public/assets/images/paypal.jpeg" alt="Discover" className="h-4 rounded-sm" />
+                                <img src="public/assets/images/visa.png" alt="Visa" className="h-4" />
+                                <img src="public/assets/images/mastercard.png" alt="Mastercard" className="h-6 rounded-sm" />
+                                <img src="public/assets/images/amex.jpeg" alt="American Express" className="h-6" />
+                                <img src="public/assets/images/discover.jpeg" alt="Discover" className="h-4 rounded-sm" />
+                                <img src="public/assets/images/paypal.jpeg" alt="Discover" className="h-4 rounded-sm" />
                             </div>
                         </div>
                     </div>
@@ -375,7 +376,7 @@ export const SignupPage: React.FC = () => {
             <p className="text-lg font-semibold text-brand-light-gray/90">Follow us on</p>
             <div className="flex flex-wrap justify-center items-center gap-6 mt-4">
                 <SocialIcon href="https://discord.gg/zGGtpydJxE" aria-label="Join on Discord">
-                    <img src="pages/public/assets/images/discord.png" alt="Discord" className="h-7 w-7" />
+                    <img src="public/assets/images/discord.png" alt="Discord" className="h-7 w-7" />
                 </SocialIcon>
                 <SocialIcon href="https://x.com/OptivusProtocol?t=t15w-GFwUR-Dyo4JVoChuQ&s=09" aria-label="Follow on X">
                     <svg className="h-6 w-6" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" /></svg>
